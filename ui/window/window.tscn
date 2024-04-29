@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://c3qsrk1de6ny0"]
+
+[ext_resource type="Script" path="res://ui/window/window.gd" id="1_4w22p"]
+[ext_resource type="Texture2D" uid="uid://vvvqxwc4le2s" path="res://assets/sprites/Undertale.png" id="1_eqvgv"]
+
+[node name="Window" type="Window"]
+initial_position = 1
+size = Vector2i(200, 200)
+always_on_top = true
+auto_translate = false
+script = ExtResource("1_4w22p")
+metadata/Index = 0
+
+[node name="Undertale" type="Sprite2D" parent="."]
+position = Vector2(100, 100)
+texture = ExtResource("1_eqvgv")

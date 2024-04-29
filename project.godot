@@ -1,0 +1,31 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Underwindow"
+run/main_scene="res://scenes/main/main.tscn"
+config/features=PackedStringArray("4.2", "Forward Plus")
+config/icon="res://assets/sprites/icon.jpg"
+
+[autoload]
+
+WindowManager="*res://managers/window_manager.gd"
+
+[display]
+
+window/size/viewport_height=640
+window/size/always_on_top=true
+window/subwindows/embed_subwindows=false
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+environment/defaults/default_clear_color=Color(0, 0, 0, 1)

@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://btnhydwmk1rc7"]
+
+[ext_resource type="Script" path="res://scenes/main/main.gd" id="1_575sd"]
+[ext_resource type="Texture2D" uid="uid://vvvqxwc4le2s" path="res://assets/sprites/Undertale.png" id="2_kvv6h"]
+[ext_resource type="AudioStream" uid="uid://c1x8hmjccf4vh" path="res://assets/music/Undertale Finale.mp3" id="3_rri6u"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_575sd")
+
+[node name="Undertale" type="Sprite2D" parent="."]
+modulate = Color(1, 0, 0, 1)
+position = Vector2(576, 320)
+texture = ExtResource("2_kvv6h")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 2.5
+autostart = true
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_rri6u")

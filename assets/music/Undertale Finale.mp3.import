@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c1x8hmjccf4vh"
+path="res://.godot/imported/Undertale Finale.mp3-91c228b321f8829a45129eed84e016fc.mp3str"
+
+[deps]
+
+source_file="res://assets/music/Undertale Finale.mp3"
+dest_files=["res://.godot/imported/Undertale Finale.mp3-91c228b321f8829a45129eed84e016fc.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
