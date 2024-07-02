@@ -24,6 +24,7 @@ WindowManager="*res://managers/window_manager.gd"
 window/size/viewport_height=640
 window/size/always_on_top=true
 window/subwindows/embed_subwindows=false
+window/per_pixel_transparency/allowed=true
 
 [rendering]
 

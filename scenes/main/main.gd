@@ -33,7 +33,7 @@ func _process(delta: float) -> void: #While running
 	for window in WindowManager.windows:
 		var index = window.get_meta("Index")
 		var offset = RAD_60*index-RAD_60*1.5 #Offset for placing windows 60 deg angle apart form each other
-		WindowManager.move_window_in_circle(window, time + offset) #SPIIIIIINNNNNNNNNN
+		WindowManager.move_window_in_circle(Vector2(get_window().position)+get_window().size/2.0,window, time + offset) #SPIIIIIINNNNNNNNNN
 	time += speed #Increase time with speed
 	if is_spinning: #If true:
 		speed += 0.0001 #Increase speed

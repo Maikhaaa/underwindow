@@ -4,9 +4,15 @@
 [ext_resource type="Texture2D" uid="uid://vvvqxwc4le2s" path="res://assets/sprites/Undertale.png" id="1_eqvgv"]
 
 [node name="Window" type="Window"]
+transparent_bg = true
 initial_position = 1
 size = Vector2i(200, 200)
+unresizable = true
+borderless = true
 always_on_top = true
+transparent = true
+unfocusable = true
+mouse_passthrough = true
 auto_translate = false
 script = ExtResource("1_4w22p")
 metadata/Index = 0
